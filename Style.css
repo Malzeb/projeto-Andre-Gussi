@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif; /* Fonte padrão sem serifa */
+    margin: 0; /* Remover margens padrão do corpo */
+}
+
+h1, h2 {
+    text-align: center; /* Centralizar títulos */
+    color: #333; /* Cor de texto escura */
+}
+
+nav ul {
+    list-style: none; /* Remover marcadores da lista */
+    padding: 0; /* Remover preenchimento da lista */
+    text-align: center; /* Centralizar a lista */
+}
+
+nav li {
+    display: inline; /* Exibir itens da lista em linha */
+    margin: 0 15px; /* Adicionar margem entre os itens */
+}
+
+nav a {
+    text-decoration: none; /* Remover sublinhado dos links */
+    color: #007bff; /* Cor azul para os links */
+}
