@@ -1,25 +1,26 @@
 body {
-    font-family: sans-serif; /* Fonte padrão sem serifa */
-    margin: 0; /* Remover margens padrão do corpo */
+  font-family: sans-serif; /* Fonte padrão sem serifa */
+  margin: 0; /* Remover margens padrão do corpo */
+  background-color: #007bff; /* Cor de fundo azul */
 }
 
 h1, h2 {
-    text-align: center; /* Centralizar títulos */
-    color: #333; /* Cor de texto escura */
+  text-align: center; /* Centralizar títulos */
+  color: #fff; /* Cor de texto branca para contraste */
 }
 
 nav ul {
-    list-style: none; /* Remover marcadores da lista */
-    padding: 0; /* Remover preenchimento da lista */
-    text-align: center; /* Centralizar a lista */
+  list-style: none; /* Remover marcadores da lista */
+  padding: 0; /* Remover preenchimento da lista */
+  text-align: center; /* Centralizar a lista */
 }
 
 nav li {
-    display: inline; /* Exibir itens da lista em linha */
-    margin: 0 15px; /* Adicionar margem entre os itens */
+  display: inline; /* Exibir itens da lista em linha */
+  margin: 0 15px; /* Adicionar margem entre os itens */
 }
 
 nav a {
-    text-decoration: none; /* Remover sublinhado dos links */
-    color: #007bff; /* Cor azul para os links */
+  text-decoration: none; /* Remover sublinhado dos links */
+  color: #fff; /* Cor de texto branca para contraste */
 }
