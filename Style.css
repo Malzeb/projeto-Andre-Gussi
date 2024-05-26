@@ -1,26 +1,33 @@
 body {
-  font-family: sans-serif; /* Fonte padrão sem serifa */
-  margin: 0; /* Remover margens padrão do corpo */
-  background-color: #007bff; /* Cor de fundo azul */
+    background-color: #87CEEB; /* Fundo azul */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0;
+    padding: 20px;
+    text-align: justify; /* Texto justificado */
 }
-
-h1, h2 {
-  text-align: center; /* Centralizar títulos */
-  color: #fff; /* Cor de texto branca para contraste */
+h1 {
+    color: darkblue;
+    text-align: center; /* Centralizar o título principal */
 }
-
+h2 {
+    color: darkgreen;
+}
+p {
+    color: #333; /* Cor do texto */
+    line-height: 1.6; /* Espaçamento entre linhas */
+}
 nav ul {
-  list-style: none; /* Remover marcadores da lista */
-  padding: 0; /* Remover preenchimento da lista */
-  text-align: center; /* Centralizar a lista */
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0;
+}
+nav ul li {
+    margin: 5px 0;
+}
+nav ul li a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: darkblue; /* Cor dos links */
+}
+nav ul li a:hover {
+    color: darkred; /* Cor dos links ao passar o mouse */
 }
 
-nav li {
-  display: inline; /* Exibir itens da lista em linha */
-  margin: 0 15px; /* Adicionar margem entre os itens */
-}
-
-nav a {
-  text-decoration: none; /* Remover sublinhado dos links */
-  color: #fff; /* Cor de texto branca para contraste */
-}
